@@ -1,0 +1,53 @@
+node-getobject (1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto install
+  * Enable upstream test using nodeunit
+  * New upstream version 1.0.2 (Closes: CVE-2020-28282)
+
+ -- Yadd <yadd@debian.org>  Sun, 10 Oct 2021 14:37:34 +0200
+
+node-getobject (0.1.0-3) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Change priority extra to priority optional.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + libjs-getobject, node-getobject: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 00:29:59 +0100
+
+node-getobject (0.1.0-2) unstable; urgency=medium
+
+  * Fix Vcs-Git url
+  * Fix autopkgtest command
+  * Remove Testsuite entry from d/control
+  * Updated standards version. No changes needed.
+  * Use secure Vcs-Git url
+  * Adjust priority to match the override of ftp-masters
+
+ -- Jonathan Ulrich Horn <debian@autoit4you.de>  Thu, 02 Jun 2016 21:31:44 +0200
+
+node-getobject (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #809983)
+
+ -- Jonathan Ulrich Horn <debian@autoit4you.de>  Tue, 05 Jan 2016 03:27:39 +0100
