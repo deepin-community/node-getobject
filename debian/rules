@@ -4,8 +4,4 @@ DH_VERBOSE = 1
 %:
 	dh $@
 
-#Currently disabled as grunt is not yet packaged
-#And in order to package grunt this package(node-getobject) is needed,
-#as it is a dependency of grunt.
-#override_dh_auto_test:
-#	grunt nodeunit
+override_dh_auto_build:
