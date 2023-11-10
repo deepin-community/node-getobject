@@ -1,3 +1,24 @@
+node-getobject (1.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.1.1
+
+ -- Anupa Ann Joseph <anupaaj@disroot.org>  Wed, 29 Jun 2022 12:38:00 +0000
+
+node-getobject (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.1.0
+
+ -- Israel Galadima <izzygaladima@gmail.com>  Fri, 08 Apr 2022 12:40:36 +0000
+
+node-getobject (1.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Ignore auto_build (Closes: #1005484)
+
+ -- Yadd <yadd@debian.org>  Sun, 13 Feb 2022 16:19:39 +0100
+
 node-getobject (1.0.2-1) unstable; urgency=medium
 
   * Team upload
